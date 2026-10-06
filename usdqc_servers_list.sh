@@ -5,7 +5,7 @@
 # Purpose  :  Show only servers that have players, excluding "[ServeMe]" names,
 #             displaying server name in green and player names in white.
 
-declare -a qwna_servers=(
+declare -a usdqc_servers=(
     "tx.usdqc.com:28501"
     "tx.usdqc.com:28502"
     "usaquake.com:27500"
@@ -17,7 +17,7 @@ declare -a qwna_servers=(
     "tx.usdqc.com:27504"
 )
 
-for server in "${qwna_servers[@]}"; do
+for server in "${usdqc_servers[@]}"; do
     
     ###############################################
     # 1) Grab qstat -P Output into a Single String
